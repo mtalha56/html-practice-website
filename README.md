@@ -57,7 +57,7 @@ To apply and reinforce what I’ve learned about core HTML elements, structure, 
 
 ## 🤝 Let's Connect
 
-Connect with me on [LinkedIn](www.linkedin.com/in/talha-tariq-03a487308)  
+Connect with me on [LinkedIn](https://www.linkedin.com/in/talha-tariq-03a487308)  
 See more of my work on [GitHub](https://github.com/mtalha56)
 
 
