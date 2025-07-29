@@ -1,0 +1,15 @@
+.sp{
+    background-color: aqua;
+    color: black;
+}
+.dv{
+    background-color:cadetblue;
+    color: black;
+}
+body{
+    background-color: bisque;
+    color: rgb(6, 6, 34);
+}
+canvas{
+    border: 1px solid black;
+}

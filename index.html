@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This Webpage is about tags and attributes of HTML as a practice">
+    <meta name="author" content="Talha">
+    <title>HTML Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="image/png" sizes="120x120" rel="icon" href="https://img.icons8.com/color/48/html-5--v1.png">
+
+</head>
+
+<body>
+    <header>
+        <h1>HTML Practice</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Paragraph & hr tag</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad qui quasi magnam tenetur aliquam ut iure
+                sunt
+                tempore porro quod odit consectetur praesentium, iusto dolor facilis impedit tempora reprehenderit,
+                saepe,
+                aperiam nostrum cumque earum. Itaque repudiandae fugit, eum earum aspernatur vero incidunt quisquam
+                nostrum
+                aliquid.
+            </p>
+            <hr>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eum, magni ipsa facilis eligendi
+                corrupti,
+                labore eius nulla accusantium ipsum asperiores quisquam aliquam laborum itaque quaerat mollitia
+                reprehenderit qui modi nesciunt nam sequi corporis quo deserunt aperiam? Omnis non obcaecati numquam
+                quibusdam reprehenderit eaque id?
+            </p>
+        </section>
+        <section>
+            <div>
+                <h2>Anchor Tags with Images & Ordered Lists</h2>
+                <ol type="I">
+                    <li><a href="https://www.youtube.com" target="_blank"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png"
+                                alt="YT Logo" width="100"></a></li>
+                    <li><a href="https://www.google.com" target="_blank"><img
+                                src="https://thumbs.dreamstime.com/b/google-logo-white-background-vector-format-available-google-logo-124289805.jpg"
+                                alt="Google Logo" width="100"></a></li>
+                    <li><a href="https://www.chatgpt.com" target="_blank"><img
+                                src="https://www.edigitalagency.com.au/wp-content/uploads/ChatGPT-logo-PNG-large-size-white-green-background.png"
+                                alt="GPT Logo" width="100"></a></li>
+                    <li><a href="https://www.friv.com" target="_blank"><img
+                                src="https://live.staticflickr.com/4231/35811408175_546309b266_w.jpg" alt="GPT Logo"
+                                width="100"></a></li>
+                </ol>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Pre Tags</h2>
+                <pre>
+                1st Line of pre tag (as it is)
+
+
+
+                Last line of pre tag
+            </pre>
+            </div>
+        </section>
+        <section>
+            <h2>Inline & Block Elements using div and span tags</h2>
+            <span class="sp">This is span tag which is an inline element</span>
+            <span class="sp">more inline</span>
+            <div class="dv">This is a div tag which is a block element</div>
+            <div class="dv">more block element</div>
+        </section>
+        <section>
+            <h2>Unordered & Def. List</h2>
+            <div>
+                <h3>My Favourite Languages</h3>
+                <ul type="circle">
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Status of Learning above Langauges:</h3>
+                <dl>
+                    <dt>Python</dt>
+                    <dd>First Language I learned - Intermediate
+                    <dt>HTML</dt>
+                    <dd>Basic - Currently Learning</dd>
+                    <dt>CSS</dt>
+                    <dd>Currently Learning</dd>
+                    <dt>Javascript</dt>
+                    <dd>Currently Learning</dd>
+                </dl>
+            </div>
+        </section>
+        <section>
+            <h2>Tables</h2>
+            <table border="2" style="color: rgb(3, 3, 37)e;">
+                <caption style="color: rgb(3, 3, 37);"><b>Family Data</b></caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Education Level</th>
+                        <th scope="col">Father's Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ayesha</td>
+                        <td>18</td>
+                        <td>A level</td>
+                        <td rowspan="4">Tariq Qadir</td>
+                    </tr>
+                    <tr>
+                        <td>Talha</td>
+                        <td>16</td>
+                        <td>AS level</td>
+                    </tr>
+                    <tr>
+                        <td>Taha</td>
+                        <td>14</td>
+                        <td>O level</td>
+                    </tr>
+                    <tr>
+                        <td>Umme Habiba</td>
+                        <td>7</td>
+                        <td>Grade 1</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2>Forms</h2>
+            <div>
+                <h3>Registration Fornm </h3>
+                <form action="POST">
+                    <div><label for="Name">Enter Your Name:</label>
+                        <input type="text" name="Name" required placeholder="Name....">
+                    </div>
+                    <div><label for="Age">Enter your Age:</label>
+                        <input type="text" name="age" required placeholder="18+">
+                    </div>
+                    <div>
+                        <label for="birth">Select your birth date</label>
+                        <input type="date" name="birth" required>
+                    </div>
+                    <div>
+                        <label for="gender">Select your Gender: </label>
+                        <label for="male">Male</label>
+                        <input required type="radio" name="gender" id="male" value="male">
+                        <label for="female">Female</label>
+                        <input required type="radio" name="gender" id="female" value="female">
+                    </div>
+                    <div>
+                        <label for="lang">Select your fav language:</label>
+                        <select required name="programming language" id="lang">
+                            <option value="py">Python</option>
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                            <option value="js">Javascript</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p><label for="lr">Enter the reason of your choice below:</label></p>
+                        <textarea required name="langreason" id="lr" rows="5" cols="35"
+                            placeholder="I like the above language because...."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit">
+                    </div>
+                </form>
+        </section>
+        <section>
+            <h2>Video and Audio Tags</h2>
+            <div>
+                <h3><u>Videos</u></h3>
+                <ol>
+                    <li>
+                        <h4>Video 1 Title</h4>
+                        <video src="videos/1.mp4" controls preload="auto" height="400"></video>
+                    </li>
+                    <li>
+                        <h4>Video 2 Title</h4>
+                        <video src="videos/2.mp4" controls preload="auto" height="400"></video>
+                    </li>
+                    <li>
+                        <h4>Video 3 Title</h4>
+                        <video src="videos/3.mp4" controls preload="auto" height="400"></video>
+                    </li>
+                    <li>
+                        <h4>Video 4 Title</h4>
+                        <video src="videos/4.mp4" controls preload="auto" height="400"></video>
+                    </li>
+                </ol>
+            </div>
+            <div>
+                <h3><u>Audios</u></h3>
+                <ol>
+                    <li>
+                        <h4>Audio No.1</h4>
+                        <audio src="audios/1.mp3" controls preload="auto"></audio>
+                    </li>
+                    <li>
+                        <h4>Audio No.2</h4>
+                        <audio src="audios/2.mp3" controls preload="auto"></audio>
+                    </li>
+                    <li>
+                        <h4>Audio No.3</h4>
+                        <audio src="audios/3.mp3" controls preload="auto"></audio>
+                    </li>
+                    <li>
+                        <h4>Audio No.4</h4>
+                        <audio src="audios/4.mp3" controls preload="auto"></audio>
+                    </li>
+                    <li>
+                        <h4>Audio No.5</h4>
+                        <audio src="audios/5.mp3" controls preload="auto"></audio>
+                    </li>
+                    <li>
+                        <h4>Audio No.6</h4>
+                        <audio src="audios/6.mp3" controls preload="auto"></audio>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <section>
+            <h2>SVG Tags</h2>
+            <div>
+                <h3>Circle :</h3>
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+                </svg>
+            </div>
+        </section>
+        <section>
+            <h2>Iframe Tags</h2>
+            <h3>Code with Harry Tutorial of HTML :</h3>
+            <iframe height="400" width="1000" src="https://www.codewithharry.com/tutorial/html-iframes"
+                frameborder="0"></iframe>
+        </section>
+        <section>
+            <h2>Code Tags</h2>
+            <h3>Python Code to add two numbers and print</h3>
+            <pre>
+                <code>
+                    num1=int(input("Enter First Number:"))
+                    num2=int(input("Enter Second Number:"))
+                    sum=num1+num2
+                    print('Sum of both numbers is',sum)
+                </code>
+            </pre>
+        </section>
+        <section>
+            <h2>Semantic Tags & Entities</h2>
+            <div>
+                <h3>
+                    Semantic Tags:
+                </h3>
+                <pre>These tags do not design the page but arrange them in a way that makes sense to the browser and search engine etc.
+
+These tags are :
+1. &lt;header&gt;
+2. &lt;nav&gt;
+3. &lt;aside&gt;
+4. &lt;main&gt;
+5. &lt;article&gt;
+6. &lt;p&gt;
+7. &lt;figure&gt;
+8. &lt;section&gt;
+9. &lt;footer&gt;
+</pre>
+            </div>
+        </section>
+        <section>
+            <h2>Canvas tag</h2>
+            <canvas id="cv" width="200" height="200"></canvas>
+        </section>
+        <section>
+            <h2>Quotations Tags</h2>
+            <div>
+                <blockquote cite="https://www.goodreads.com/quotes/tag/inspirational-life">
+                    You can talk with someone for years, everyday, and still, it won't mean as much as what you can have
+                    when you sit in front of someone, not saying a word, yet you feel that person with your heart, you
+                    feel like you have known the person for forever.... connections are made with the heart, not the
+                    tongue.(This is blockquote)
+                </blockquote>
+                <q cite="https://medium.com/@anferneeck/70-short-and-simple-life-quotes-71cb8f8b78f3">It always seems
+                    impossible until it’s done.(this is q)</q>
+            </div>
+        </section>
+    </main>
+<footer>
+    <pre>
+
+        
+    Webpage By Talha | HTML Practice | Tried to use most of elements I know of HTML
+    Copyright &copy; 2025
+    </pre>
+</footer>
+</body>
+
+</html>
